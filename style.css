@@ -1,0 +1,158 @@
+.container-header {
+    margin: 0 20%;
+}
+
+.menu1 {
+    display: flex;
+    justify-content: right;
+    font-size: 12px;
+    background-color: #157DD3;
+    color: white;
+    padding-right: 10px;
+}
+
+.top-nav {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    /* cac item cach nhau 10px */
+}
+
+.menu2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: #157DD3;
+    color: white;
+    padding-right: 10px;
+}
+
+.nav-logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+    box-shadow: 10px;
+}
+
+.search-bar {
+    display: flex;
+    /* Added for aligning search input and buttons */
+    align-items: center;
+    /* Vertically align items */
+}
+
+.search-input {
+    width: 500px;
+    height: 35px;
+}
+
+.search-button {
+    width: 50px;
+    height: 40px;
+    background-color: yellow;
+}
+
+.cart-button {
+    width: 150px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.menu3 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    background-color: #106CB3;
+}
+
+.sub-menu {
+    display: flex;
+    justify-content: start;
+    color: white;
+    padding-right: 25px;
+}
+
+.sub-menu ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    padding-left: 15px;
+}
+
+.offer {
+    color: yellow;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.menu4 li {
+    font-size: 13px;
+}
+
+.ctg-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 280px;
+    border: 1px solid #e0e0e0;
+}
+
+.ctg-menu li {
+    display: flex;
+    align-items: center;
+    padding: 14px 20px;
+    justify-content: space-between;
+}
+
+.categories-header {
+    background-color: #FFD822;
+}
+
+.container-body {
+    background-color: #F3F3F3;
+    display: flex;
+    /* Kích hoạt Flexbox để các con xếp thành hàng */
+    align-items: flex-start;
+    /* Căn các mục theo đỉnh của chúng */
+    gap: 30px;
+    /* Tạo khoảng cách 30px giữa menu4 và menu5 */
+    margin: 0 20%;
+    /* Giữ lại margin bạn đã đặt */
+}
+
+.menu5 {
+    display: flex;
+    /* Dùng flexbox cho chính nó... */
+    flex-direction: column;
+    /* ...để ảnh và thanh feature xếp dọc */
+}
+
+.menu5 img {
+    width: 100%;
+    /* Cho ảnh vừa với chiều rộng của khối .menu5 */
+    height: auto;
+    display: block;
+    /* Bỏ khoảng trống thừa dưới ảnh */
+}
+
+.nav-menu5 {
+    display: flex;
+    justify-content: space-around;
+    /* Phân bố đều các mục */
+    list-style-type: none;
+    padding: 40px;
+    /* Adjusted padding as per original HTML */
+    margin: 0;
+    background-color: #0F6CB3;
+    color: white;
+}
+
+.nav-menu5 li {
+    text-align: center;
+}
+
+.nav-menu5 li p {
+    font-size: 12px;
+}
