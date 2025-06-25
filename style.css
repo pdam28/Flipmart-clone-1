@@ -1,5 +1,5 @@
 .container-header {
-    margin: 0 20%;
+    margin: 0 10%;
 }
 
 .menu1 {
@@ -118,7 +118,7 @@
     /* Căn các mục theo đỉnh của chúng */
     gap: 30px;
     /* Tạo khoảng cách 30px giữa menu4 và menu5 */
-    margin: 0 20%;
+    margin: 0 10%;
     /* Giữ lại margin bạn đã đặt */
 }
 
@@ -143,7 +143,6 @@
     /* Phân bố đều các mục */
     list-style-type: none;
     padding: 40px;
-    /* Adjusted padding as per original HTML */
     margin: 0;
     background-color: #0F6CB3;
     color: white;
@@ -155,4 +154,22 @@
 
 .nav-menu5 li p {
     font-size: 12px;
+}
+
+.blum {
+    position: relative;
+    bottom: 500px;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.blum li {
+    margin-bottom: 10px;
+}
+
+.buttom-menu5 {
+    background-color: #0F6CB3;
+    color: white;
+    padding: 15px;
+    width: 90px;
 }
